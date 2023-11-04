@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+/* @-webkit-keyframes run-loop {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
 body {
   display: flex;
   flex-direction: column;
@@ -33,6 +42,10 @@ body.celebrate {
   100% {
     background-position: 0% 50%;
   }
+}
+
+.dance {
+  /* -webkit-animation: run-loop 5s linear infinite; */
 }
 
 h1 {
